@@ -1,0 +1,92 @@
+CSS-Cascading Style Sheet
+->CSS is not a programming language, but a stying language
+
+Selectors
+Universal Selector -> * { }
+Element Selector -> h1 { }
+Id Selector -> #myId { }
+Class Selector -> .myClass { }
+
+Text Properties
+text-align : left / right / center
+
+Text Properties
+text-decoration : underline / overline / line-through
+
+Text Properties
+font-weight : normal / bold / bolder / lighter
+
+Text Properties
+font-family : arial
+
+
+cm, mm, inch & others are also there
+but pixels is the most used
+
+Text Properties
+line-height : 2px
+
+text-tranform : uppercase / lowercase / capitalize / none
+
+Box Model in css:
+
+Height
+Width
+Border
+Padding
+Margin 
+
+Used to set an element's border
+border-width : 2px;
+border-style : solid / dotted / dashed
+border-color : black;
+border-radius : 10px; ///Used to round the corners of an element's outer border edge
+
+padding-left
+padding-right
+padding-top
+padding-bottom 
+
+margin-right
+margin-left
+margin-top
+margin-bottom Margin AP
+
+///Display Property
+inline - Takes only the space required by the element. (no margin/ padding)
+block - Takes full space available in width.
+inline-block - Similar to inline but we can set margin & padding.
+none - To remove element from document flow.
+
+display: inline / block / inline-block / none
+
+
+
+Position
+static - default position (The top, right, bottom, left, and z-index properties have no effect)
+relative - element is relative to itself. (The top, right, bottom, left, and z-index will work)
+absolute - positioned relative to its closest positioned ancestor. (removed from the flow)
+fixed - positioned relative to browser. (removed from flow)
+sticky - positioned based on user's scroll position
+
+Background Image
+Used to set an image as background
+background-image : url("image.jpeg");
+
+background-size : cover / contain / auto
+cover = fits with no empty space
+contain - fits with image fully visible
+auto = original size
+
+Flexbox
+
+Flexbox Direction
+flex-direction : row; (default), row-reverse; , column; , column-reverse;
+
+Flex Properties
+flex-wrap 
+align-items 
+align-content 
+
+Media Queries
+Helps in creatimg a responsive website
